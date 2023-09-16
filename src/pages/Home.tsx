@@ -1,7 +1,10 @@
 function Home() {
     return (
         <div className='contentCenter'>
-            <h1 className='button'>GET STARTED!</h1>
+            <div>
+                <h1 className='findTitle'>Find your community today!</h1>
+                <button className='button'>START NOW!</button>
+            </div>
         </div>
     );
 };

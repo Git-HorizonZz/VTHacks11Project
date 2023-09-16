@@ -67,8 +67,15 @@
     cursor: pointer;
 }
 
+.findTitle {
+    margin-bottom: 20px;
+    font-size: 5em;
+    width: 45vw;
+}
+
 button {
-    width: 200px;
+    width: 270px;
+    height: 70px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -80,10 +87,11 @@ button {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-
+    transition-duration: 0.2s;
+    font-size: x-large;
 }
 
-span {
+/* span {
     background: #009688;
     height: 100%;
     width: 100%;
@@ -94,7 +102,7 @@ span {
     z-index: -1;
     transition: 0.5s;
 
-}
+} */
 
 button:hover span {
     width: 100%;
@@ -102,5 +110,5 @@ button:hover span {
 }
 
 button:hover {
-    border: none;
+    border-color: white;
 }
