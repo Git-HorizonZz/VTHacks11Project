@@ -1,6 +1,8 @@
 function Home() {
     return (
-        <h1 className='button'>HOME</h1>
+        <div className='contentCenter'>
+            <h1 className='button'>GET STARTED!</h1>
+        </div>
     );
 };
 

@@ -1,6 +1,8 @@
 function About() {
     return (
-        <h1 className='button'>ABOUT</h1>
+        <div className='contentCenter'>
+            <h1 className='button'>About Us!</h1>
+        </div>
     );
 };
 

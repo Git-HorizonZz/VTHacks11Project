@@ -3,7 +3,6 @@
     padding: 0;
     font-family: sans-serif;
     color: white;
-    text-align: center;
 }
 
 .navbar {
@@ -48,6 +47,24 @@
 
 .navbar ul li:hover::after {
     width: 100%;
+}
+
+.contentCenter {
+    text-align: center;
+}
+
+.contentCenter div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mail {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 button {
